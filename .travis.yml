@@ -2,5 +2,7 @@ language: python
 python:
   - "2.7"
   - "3.6"
+install:
+  - "pip install termcolor"
 # command to run tests
 script: make test
